@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const productsContainer = document.getElementById("products-container");
+  const productsContainers = document.querySelectorAll(".products-grid");
   const loadMoreBtn = document.querySelector(".load-more-btn");
   let currentPage = 1;
   const productsPerPage = 4;
@@ -17,9 +17,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const endIndex = startIndex + productsPerPage;
       const productsToShow = allProducts.slice(startIndex, endIndex);
 
-      productsToShow.forEach((product) => {
-        const productCard = createProductCard(product);
-        productsContainer.appendChild(productCard);
+      productsContainers.forEach((container) => {
+        productsToShow.forEach((product) => {
+          const productCard = createProductCard(product);
+          container.appendChild(productCard);
+        });
       });
 
       if (endIndex >= allProducts.length) {
