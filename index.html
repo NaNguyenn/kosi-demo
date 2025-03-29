@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KOSI</title>
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
   </head>
   <body>
     <header>
       <div class="container">
         <div class="header-left">
           <div class="logo">
-            <object data="assets/images/logo-kosi.svg"></object>
+            <object data="./assets/images/logo-kosi.svg"></object>
           </div>
           <nav>
             <ul>
@@ -34,11 +34,11 @@
           </div>
           <div class="icons-tray">
             <object
-              data="assets/icons/Iconly/Light-Outline/Profile.svg"
+              data="./assets/icons/Iconly/Light-Outline/Profile.svg"
             ></object>
             <div class="search-container">
               <object
-                data="assets/icons/Iconly/Light-Outline/Search.svg"
+                data="./assets/icons/Iconly/Light-Outline/Search.svg"
               ></object>
               <input
                 type="text"
@@ -49,7 +49,9 @@
               <div class="search-suggestions"></div>
             </div>
             <div class="cart-icon">
-              <object data="assets/icons/Iconly/Light-Outline/Buy.svg"></object>
+              <object
+                data="./assets/icons/Iconly/Light-Outline/Buy.svg"
+              ></object>
               <span class="cart-count">0</span>
             </div>
           </div>
@@ -61,7 +63,7 @@
       <section class="hero">
         <div class="hero-content">
           <img
-            src="assets/images/kosi-stamp.png"
+            src="./assets/images/kosi-stamp.png"
             alt="kosi stamp"
             width="102px"
             height="102px"
@@ -108,11 +110,27 @@
         </div>
       </section>
 
+      <section class="top-picks">
+        <div class="container">
+          <div class="top-picks-title">
+            <h2>Top Picks For You</h2>
+            <p>
+              Find a bright ideal to suit your taste with our great selection of
+              suspension, floor and table lights.
+            </p>
+          </div>
+          <div class="products-grid" id="products-container">
+            <!-- loadProducts -->
+          </div>
+          <button class="load-more-btn">Load More</button>
+        </div>
+      </section>
+
       <section class="service">
         <div class="container">
           <div>
             <object
-              data="assets/icons/Iconly/Light-Outline/Time-Circle.svg"
+              data="./assets/icons/Iconly/Light-Outline/Time-Circle.svg"
             ></object>
             <div>
               <h3>90 Days Return</h3>
@@ -121,7 +139,7 @@
           </div>
           <div>
             <object
-              data="assets/icons/Iconly/Light-Outline/Bookmark.svg"
+              data="./assets/icons/Iconly/Light-Outline/Bookmark.svg"
             ></object>
             <div>
               <h3>Free Delivery</h3>
@@ -130,7 +148,7 @@
           </div>
           <div>
             <object
-              data="assets/icons/Iconly/Light-Outline/Wallet.svg"
+              data="./assets/icons/Iconly/Light-Outline/Wallet.svg"
             ></object>
             <div>
               <h3>Secure Payment</h3>
@@ -147,25 +165,25 @@
           <div class="footer-left">
             <object
               class="footer-logo"
-              data="assets/images/logo-kosi.svg"
+              data="./assets/images/logo-kosi.svg"
             ></object>
             <div>
               <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
               <div class="social-icons">
                 <div>
-                  <object data="assets/icons/social/facebook.svg"></object>
+                  <object data="./assets/icons/social/facebook.svg"></object>
                 </div>
                 <div>
-                  <object data="assets/icons/social/twitter.svg"></object>
+                  <object data="./assets/icons/social/twitter.svg"></object>
                 </div>
                 <div>
-                  <object data="assets/icons/social/instagram.svg"></object>
+                  <object data="./assets/icons/social/instagram.svg"></object>
                 </div>
                 <div>
-                  <object data="assets/icons/social/pinterest.svg"></object>
+                  <object data="./assets/icons/social/pinterest.svg"></object>
                 </div>
                 <div>
-                  <object data="assets/icons/social/tiktok.svg"></object>
+                  <object data="./assets/icons/social/tiktok.svg"></object>
                 </div>
               </div>
             </div>
@@ -195,7 +213,7 @@
               <div>
                 <input type="email" placeholder="Your email address" />
                 <object
-                  data="assets/icons/Iconly/Light-Outline/Send.svg"
+                  data="./assets/icons/Iconly/Light-Outline/Send.svg"
                 ></object></div
             ></label>
           </div>
@@ -215,7 +233,6 @@
         </div>
       </div>
     </footer>
-
-    <script src="scripts/product.js"></script>
+    <script src="./scripts/product.js"></script>
   </body>
 </html>

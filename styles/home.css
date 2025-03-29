@@ -6,7 +6,7 @@ header {
   height: 100vh;
   padding-top: 120px;
   background-color: #fcf6f2;
-  background-image: url("/assets/images/hero.png");
+  background-image: url("../assets/images/hero.png");
   background-position: left 85% bottom -500px;
   background-repeat: no-repeat;
   .hero-content {
@@ -74,27 +74,27 @@ header {
     }
     #category1 {
       grid-row: span 2 / span 2;
-      background-image: url("/assets/images/category/furniture.png");
+      background-image: url("../assets/images/category/furniture.png");
       background-position: left 50% bottom 50%;
     }
 
     #category2 {
       grid-column: span 2 / span 2;
-      background-image: url("/assets/images/category/sale.png");
+      background-image: url("../assets/images/category/sale.png");
       background-position: left 50% bottom 50%;
     }
 
     #category3 {
       grid-column-start: 2;
       grid-row-start: 2;
-      background-image: url("/assets/images/category/hot.png");
+      background-image: url("../assets/images/category/hot.png");
       background-position: left 50% top 0;
     }
 
     #category4 {
       grid-column-start: 3;
       grid-row-start: 2;
-      background-image: url("/assets/images/category/new.png");
+      background-image: url("../assets/images/category/new.png");
       background-position: right 0 bottom 50%;
     }
   }
