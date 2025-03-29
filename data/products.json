@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/1.png",
+    "name": "Circle Dining Chair",
+    "tag": "-28%",
+    "discountedPrice": 12,
+    "originalPrice": 14
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/1.png",
+    "name": "Modern Lounge Chair",
+    "tag": "NEW",
+    "originalPrice": 18
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/1.png",
+    "name": "Elegant Sofa Set",
+    "tag": "HOT",
+    "originalPrice": 32
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/1.png",
+    "name": "Vintage Wooden Table",
+    "tag": "NEW",
+    "originalPrice": 25
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/1.png",
+    "name": "Minimalist Coffee Table",
+    "tag": "-15%",
+    "discountedPrice": 17,
+    "originalPrice": 20
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/1.png",
+    "name": "Cozy Armchair",
+    "tag": "HOT",
+    "originalPrice": 22
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/1.png",
+    "name": "Luxury Office Chair",
+    "tag": "-10%",
+    "discountedPrice": 45,
+    "originalPrice": 50
+  },
+  {
+    "id": 8,
+    "image": "/assets/images/1.png",
+    "name": "Classic Bookshelf",
+    "tag": "NEW",
+    "originalPrice": 30
+  },
+  {
+    "id": 9,
+    "image": "/assets/images/1.png",
+    "name": "Outdoor Patio Chair",
+    "tag": "-20%",
+    "discountedPrice": 24,
+    "originalPrice": 30
+  },
+  {
+    "id": 10,
+    "image": "/assets/images/1.png",
+    "name": "Modern Bed Frame",
+    "tag": "HOT",
+    "originalPrice": 60
+  }
+]
