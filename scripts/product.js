@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const productsContainers = document.querySelectorAll(".products-grid");
-  const loadMoreBtn = document.querySelector(".load-more-btn");
+  const loadMoreBtns = document.querySelectorAll(".load-more-btn");
   let currentPage = 1;
   const productsPerPage = 4;
 
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       if (endIndex >= allProducts.length) {
-        loadMoreBtn.style.display = "none";
+        loadMoreBtns.forEach((btn) => (btn.style.display = "none"));
       }
 
       currentPage++;
@@ -108,6 +108,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  loadMoreBtn.addEventListener("click", loadProducts);
+  loadMoreBtns.forEach((btn) => {
+    btn.addEventListener("click", loadProducts);
+  });
   loadProducts();
 });
