@@ -100,7 +100,13 @@ header {
         display: flex;
         align-items: center;
         gap: 32px;
-        .cart-icon {
+        svg {
+          fill: var(--black-color);
+          &:hover {
+            fill: var(--primary-color);
+          }
+        }
+        .cart-icon-container {
           position: relative;
           .cart-count {
             position: absolute;
